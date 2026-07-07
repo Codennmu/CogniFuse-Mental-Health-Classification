@@ -1,0 +1,4 @@
+Model,Accuracy,F1 (macro)
+ClinicalBERT Only (Branch 1),0.8178,0.8083
+RoBERTa Only (Branch 2),0.7424,0.7251
+CogniFuse — Dual-Encoder Fusion (Ours),0.8624,0.8553
