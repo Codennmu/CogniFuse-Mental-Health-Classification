@@ -96,10 +96,7 @@ Classes include:
 
 The dataset exhibits class imbalance and varying sentence lengths, making it a challenging multi-class NLP classification problem.
 
-<p align="center">
-<img src="<img width="2384" height="594" alt="eda_overview" src="https://github.com/user-attachments/assets/dd9bf5e5-5aec-4995-8c75-3a45d41b5a93" />
-" width="100%">
-</p>
+<img width="2384" height="594" alt="eda_overview" src="https://github.com/user-attachments/assets/6d77346d-2246-43c7-8cd8-27bd66e36b1b" />
 
 The figure above illustrates:
 
@@ -131,10 +128,8 @@ The projected feature vectors are concatenated into a 512-dimensional fused repr
 
 The fused embedding is then passed through an MLP classifier for final prediction.
 
-<p align="center">
-<img src="<img width="1408" height="674" alt="Architecture diagram1" src="https://github.com/user-attachments/assets/8c642c7e-17e2-4f9f-88a5-ef0014ea9973" />
-" width="100%">
-</p>
+<img width="1408" height="674" alt="Architecture diagram1" src="https://github.com/user-attachments/assets/65a76af0-d8f4-418c-adec-f9d565d600f5" />
+
 
 ---
 
@@ -169,10 +164,8 @@ The fused embedding is then passed through an MLP classifier for final predictio
 
 #  Confusion Matrix
 
-<p align="center">
-<img src="<img width="997" height="881" alt="confusion_matrix" src="https://github.com/user-attachments/assets/6d2e5490-9921-4218-b91b-48c71f90d7a2" />
-" width="80%">
-</p>
+<img width="997" height="881" alt="confusion_matrix" src="https://github.com/user-attachments/assets/e9a40819-2fcb-4499-860c-99360c0683ae" />
+
 
 The confusion matrix demonstrates strong classification performance across all four mental health categories, with the highest accuracy observed for the Normal class.
 
@@ -180,10 +173,8 @@ The confusion matrix demonstrates strong classification performance across all f
 
 # ROC Curves
 
-<p align="center">
-<img src="<img width="1034" height="881" alt="roc_curves" src="https://github.com/user-attachments/assets/cc323306-0e9c-46f2-9467-469b19e1d451" />
-" width="80%">
-</p>
+<img width="1034" height="881" alt="roc_curves" src="https://github.com/user-attachments/assets/6cb85876-98bf-4fa1-a87e-59b7de184985" />
+
 
 Area Under Curve (AUC):
 
@@ -198,10 +189,8 @@ Area Under Curve (AUC):
 
 # Precision–Recall Curves
 
-<p align="center">
-<img src="<img width="1034" height="881" alt="precision_recall_curves" src="https://github.com/user-attachments/assets/d4891f7f-39bd-4947-b422-2928a3ffe062" />
-" width="80%">
-</p>
+<img width="1034" height="881" alt="precision_recall_curves" src="https://github.com/user-attachments/assets/635e4c7a-229b-4506-bfff-03714a807094" />
+
 
 Average Precision (AP):
 
@@ -216,10 +205,7 @@ Average Precision (AP):
 
 #  Embedding Visualization (t-SNE)
 
-<p align="center">
-<img src="<img width="1184" height="1031" alt="tsne_embeddings" src="https://github.com/user-attachments/assets/a0170204-64d3-4da4-8993-b1db3cd82874" />
-" width="80%">
-</p>
+<img width="1184" height="1031" alt="tsne_embeddings" src="https://github.com/user-attachments/assets/fd2b872a-8890-4b87-a53a-5685206bd067" />
 
 The t-SNE projection demonstrates that the fused feature representations form well-separated clusters for each mental health category, indicating that the dual-encoder architecture learns highly discriminative embeddings.
 
@@ -229,10 +215,8 @@ The t-SNE projection demonstrates that the fused feature representations form we
 
 To evaluate the effectiveness of feature fusion, the proposed model was compared against single-encoder baselines.
 
-<p align="center">
-<img src="<img width="1784" height="741" alt="ablation_results" src="https://github.com/user-attachments/assets/801b4073-6fc8-4f70-9f70-f17380bf5566" />
-" width="90%">
-</p>
+<img width="1784" height="741" alt="ablation_results" src="https://github.com/user-attachments/assets/c0a474b9-9d97-4248-9c6f-71ceeaf1748a" />
+
 
 | Model | Accuracy | Macro F1 |
 |--------|----------|----------|
